@@ -1,0 +1,246 @@
+@media (max-width: 768px) {
+   /* меню на черном фоне */
+  .top__list:first-child {
+    margin-left: 32px;
+  }
+  .top__list:last-child {
+    margin-right: 41.01px;
+  }
+/* <!-- Баннер на светлом фоне с мужиком и надписью --> */
+
+.top-img {
+  width: 50%;
+  height: 50%;
+}
+
+.top__info {
+  height: 367.57px;
+}
+
+.top__header__brand {
+  font-size: 44px;
+  line-height: 52.8px;
+}
+
+.top__subheader__brand {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.top__brand {
+  padding-left: 32px;
+  padding-top: 151.47px;
+}
+
+.menu__text__accesories {
+  text-align: left;
+}
+
+/* <!-- три маленькие картиночки и одна длинная --> */
+
+.menu__card__accesories {
+  margin-left: 16px;
+  margin-bottom: 64px;
+  margin-right: 16px;
+}
+
+.menu__text__accesories {
+  padding-left: 288px;
+}
+
+.menu__card__link {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.menu__photo {
+ width: 232.09px;
+ height: 167.62px;
+}
+
+/* <!-- товары  --> */
+
+.item__card__box {
+  justify-content: space-around;
+  margin-left: 16px;
+
+}
+
+/* черный фон, машинка, процент и корона */
+
+.advantages {
+  height: 610px;
+}
+
+.advantages__box {
+  flex-direction: column;
+  padding-top: 48px;
+}
+
+.advantages__item {
+  padding-bottom: 47.37px;
+}
+
+
+/* подвал */
+.footer__top {
+  background-image: url(photo/background-subscribe-tablet.png);
+  height: 614px;
+}
+
+.footer__top__box {
+  flex-direction: column;
+}
+
+.citation {
+  padding-top: 64px;
+  padding-left: 204px;
+}
+
+.subscribe__box {
+  padding-top: 48px;
+}
+
+.footer__bottom__left {
+  padding-left: 32px;
+}
+
+.social__media__box {
+  padding-right: 32.34px;
+}
+
+}
+
+@media (max-width: 375px) {
+/* меню на черном фоне */
+.header {
+  width: 375px;
+}
+
+.top__list:first-child {
+  margin-left: 16px;
+}
+
+.cart_logo {
+  display: none;
+}
+
+.pro_logo {
+  display: none;
+}
+
+.top__right {
+  padding-left: 140px;
+}
+
+/* <!-- Баннер на светлом фоне с мужиком и надписью --> */
+.top__info {
+  height: 363px;
+  width: 375px;
+}
+
+.top-img {
+  display: none;
+}
+
+.top__header__brand {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 46px;
+}
+
+.brand__element {
+   width: 12px;
+  height: 61px;
+  padding-top: 5px;
+}
+
+.top__subheader__brand {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.top__brand {
+  padding-top: 148px;
+}
+
+/* <!-- три маленькие картиночки и одна длинная --> */
+.menu__card__box {
+  flex-direction: column;
+}
+
+.menu__card__link {
+  margin-bottom: 32px;
+  margin-left: 8px;
+}
+
+.menu__card__accesories {
+background-repeat: no-repeat;
+background-image: url(photo/acc-section.png);
+margin-left: 16px;
+margin-bottom: 64px;
+}
+
+.menu__text__accesories {
+  text-align: left;
+  margin-left: 92px;
+  padding-top: 31px;
+}
+
+/* товары */
+.item__card__box {
+  margin-left: 8px;
+}
+
+/* <!-- черный фон, машинка, процент и корона --> */
+.advantages {
+  height: 610px;
+}
+
+.advantages__box {
+  flex-direction: column;
+  padding-top: 48px;
+}
+
+.advantages__item {
+  padding-bottom: 46.73px;
+}
+
+
+/* подвал */
+.footer__bottom {
+  height: 143px;
+}
+
+.footer__bottom__box {
+  flex-direction: column-reverse;
+} 
+
+.social__media__box {
+  justify-content: center;
+  padding-top: 43px;
+}
+
+.footer__bottom__left {
+  padding-left: 62px;
+}
+
+.footer__top__box {
+  flex-direction: column;
+}
+
+.citation {
+  padding-top: 64px;
+}
+
+.subscribe__box {
+  padding-top: 59px;
+}
+
+.footer__top {
+  background-image: url(photo/background-subscribe-ad.png);
+  height: 550px;
+}
+  
+}
